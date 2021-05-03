@@ -29,18 +29,18 @@
     },
     "devDependencies": {
         "@prettier/plugin-xml": "^0.13.1",
-        "@sa11y/jest": "^0.3.0",
+        "@sa11y/jest": "^0.3.1",
         "@salesforce/eslint-config-lwc": "^0.11.0",
         "@salesforce/sfdx-lwc-jest": "^0.11.0",
-        "@typescript-eslint/eslint-plugin": "^4.19.0",
-        "@typescript-eslint/parser": "^4.19.0",
-        "eslint": "^7.22.0",
-        "eslint-plugin-jest": "^24.3.2",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "^7.25.0",
+        "eslint-plugin-jest": "^24.3.6",
         "husky": "^5.2.0",
         "lerna": "^4.0.0",
         "prettier": "^2.2.1",
-        "prettier-plugin-apex": "^1.8.0",
+        "prettier-plugin-apex": "^1.9.1",
         "rimraf": "^3.0.2",
-        "typescript": "^4.2.3"
+        "typescript": "^4.2.4"
     }
 }

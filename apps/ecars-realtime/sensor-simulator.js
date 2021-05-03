@@ -12,7 +12,7 @@ const profiles = ['short', 'medium', 'long'];
 
 async function main() {
     for (let i = 0; i < SIMULATOR_CONCURRENCY; i++) {
-        const agent = new Agent(profiles[faker.random.number(2)], {
+        const agent = new Agent(profiles[faker.datatype.number(2)], {
             name: `Pulsar One - ${faker.commerce.color()}`,
             interval: SIMULATOR_INTERVAL
         });
